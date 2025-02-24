@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #633974 ;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.task-input, .filter-search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.task-input input, .filter-search input, .task-input select, .filter-search select, .task-input button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background:#34495e;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 5px solid #ccc;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    border-left: 5px solid green !important;
+}
+
+.work { border-left-color: blue; }
+.personal { border-left-color: orange; }
+.urgent { border-left-color: red; }
+
+button {
+    background-color: #2980b9;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #007bff;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.complete {
+    background-color: #ffc107;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('https://www.shutterstock.com/shutterstock/photos/1080053384/display_1500/stock-photo-composition-with-to-do-list-on-white-background-1080053384.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    background-color: #2c3e50; /* Fallback color */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: gainsboro; /* Ensure text is readable */
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background:gray; /* Slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black; /* Ensure text is visible inside the container */
+}
+
